@@ -117,6 +117,15 @@ nav ol li a:hover::after{
 }
 
 
+ol.breadcrumb  li::after {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    content: "/\00a0";
+}
+
+
+
 .section-desc{
    margin-top: 30px;
     width: 100%;
@@ -145,6 +154,9 @@ nav ol li a:hover::after{
     width: 50%;
 }
 
+.section-desc p{
+    line-height: 30px;
+}
 
 .section-cart{
     width: 100%;
@@ -172,7 +184,7 @@ nav ol li a:hover::after{
     transform: rotate(12deg);
     width: 87%;
     height: 151%;
-    background-color: #fff490;
+    background-color: #e090ff;
     transition: left .5s;
 }
 
